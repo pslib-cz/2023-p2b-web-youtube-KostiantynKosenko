@@ -2,27 +2,40 @@
 
 .main {
    gap: 1em;
+   display: flex;
+   flex-direction: column;
 }
 
 .ytv {
+   align-self: center;
     
 }
 .ytv__bottom {
     
 }
 .ytv__left {
+   display: flex;
+   align-items: flex-end;
+   gap: 1em;
     
 }
 .ytv__right {
+display: flex;
+justify-content: end;
+gap: 1em;
     
 }
 .profile {
+   display: inline-flex;
+   gap: 1em;
     
 }
 .profile__text {
+   align-self: center;
     
 }
 .icon {
+   align-self: center;
 
 }
 .btn--flex {
